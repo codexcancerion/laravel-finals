@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat";
+}
+
+.pink {
+    color: #EF0178 !important;
+}
+
+.outline-pink {
+    border: 1px solid #EF0178 !important;
+}
+
+.nav-link:hover {
+    color: #EF0178 !important;
+}
+
+
+.card.popular {
+    background: #5243C2;
+    color: #fff;
+}
+
+.card.popular .choose-btn {
+    background-color: #ff2e63;
+    color: #fff;
+}
+
+.card.popular .badge {
+    background-color: #4031B3;
+    color: #F496D1;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-weight: 300;
+}
+
+.price {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.price span {
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+.choose-btn {
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.purple-container {
+    background-color: #5243C2;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.btn-pink {
+    background-color: #EF0178;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+.testimonials-section {
+    background-color: #f8f9fa;
+    padding: 40px;
+    margin-top: 50px;
+    gap: 40px;
+}
+.testimonial-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+.testimonial-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonial-name {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+.testimonial-rating {
+    color: #f5c518;
+}
+.testimonial-text {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}
+.arrows {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.white-arrow-btn {
+    background-color: #fff;
+    color: #4031B3;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.arrow-btn {
+    background-color: #4031B3;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.subscription-section {
+    background-color: #131722;
+    color: #fff;
+    text-align: center;
+}
+.subscription-section h2 {
+    font-size: 1.7em;
+    font-weight: 300;
+}
+.subscription-section p {
+    font-weight: 300;
+    color: gray;
+}
+.subscription-section input[type="email"] {
+    max-width: 300px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+}
+.subscription-btn {
+    background-color: #6a11cb;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+}
+.footer-nav {
+    margin-top: 20px;
+}
+.footer-nav a {
+    color: #ddd;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
