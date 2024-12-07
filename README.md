@@ -21,7 +21,7 @@ git clone https://github.com/codexcancerion/laravel-finals.git
 ```
 Navigate into the project folder:
 ```bash
-cd assistify-laravel
+cd laravel-finals
 ```
 
 ### 2. Install Dependencies
